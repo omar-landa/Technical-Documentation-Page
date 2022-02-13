@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+  
+  <nav id="navbar">
+    <header>JavaScript</header>
+    
+    <a href="#Basic_Syntax" class="nav-link">Basic Syntax</a>
+    <a href="#Comments" class="nav-link">Comments</a>
+    <a href="#If_Statements" class="nav-link">If Statements</a>
+    <a href="#For_Loops" class="nav-link">For Loops</a>
+    <a href="#While_Loops" class="nav-link">While Loops</a>
+    
+  </nav>
+ 
+    
+    
+  <main id="main-doc">
+    <section class="main-section" id="Basic_Syntax">
+     
+      <header>
+        Basic Syntax
+      </header>
+      
+      <p>JavaScript is case-sensitive, so writing <code>Java</code> is different than writing <code>java</code>.</p>
+      <p>JavaScript also uses camel-case for it's variables, so if writing out a variable name, ot should look like <code>camelCase</code> or <code>landBeforeTime</code>.</p>
+      
+    </section>
+    
+    <section class="main-section" id="Comments">
+      
+      <header>
+        Comments
+      </header>
+      
+      <p>There are two ways to write comments in JavaScript.</p>
+      
+      <li>One-Line Comment:</li>
+      <code>// This is used for a one-line comment.</code><br><br>
+      
+      <li>Multi-Line Comment:</li>
+      <code>/* This is used<br>
+             * for multi-line comments<br>
+             */ </code><br><br>
+      
+      
+      
+    </section>
+    
+    <section class="main-section" id="If_Statements">
+      
+      <header>
+        If Statements
+      </header>
+      
+      <p>In an <code>if...else statement</code>, the <code>if</code> condition will be executed/performed if the condition is true. If the condition is false, then the <code>else</code> condition will be executed/performed instead.</p>
+      
+      <p>An example of an If...Else Statement is shown below:</p>
+      
+      <code>if(var sky = blue) { <br>
+      console.log("The sky is blue.")<br>
+        } <br>
+        else { <br>
+          console.log("The sky is not blue.")<br>
+        } </code>
+      
+      <p>Remember, the <code>if</code> condition will only execute if it is TRUE.</p>
+      <p>Otherwise, the <code>else</code> condition will execute.
+      
+    </section>
+    
+    <section class="main-section"  id="For_Loops">
+      
+      <header>
+        For Loops
+      </header>
+      
+      <p>A <code>for</code> loop will repeat while a specified condition remains TRUE.</p>
+      <p>Once the condition is FALSE, the loop will stop repeating.</p>
+      <p> An example of a For Loop is shown below:</p>
+      <code>for (let i = 0; i < 5; i++) { <br>
+                text += "The number is " + i + "." <br>
+            }<br>
+      </code><br>
+      <li>This loop will continue to repeat until the <code>i</code> variable equals less than 5.</li>
+      <li>It will stop once <code>i</code> equals 5.</li><br>
+    </section>
+    
+    <section class="main-section" id="While_Loops">
+      
+      <header>
+        While Loops
+      </header>
+      
+      <p>A <code>while</code> is similar to a <code>for</code> loop as the statement will execute as long as the specified condition is TRUE.</p>
+      <p>An example of a while statement is shown below:</p>
+      
+      <code>while (i < 5) { <br>
+      text += "The number is " + i;<br>
+      i++; <br>
+      } </code><br><br>
+      
+      <li>If you know how many times a loop should run, you should use a <code>for</code> loop.</li>
+      <li>If you want the loop to stop based on a condition instead on a known number of times, then you should use a <code>while</code> loop.</li>
+      
+    </section>
+    
+  </main>
+   
+  </body>
+  
+</html>
